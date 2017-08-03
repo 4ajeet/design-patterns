@@ -3,7 +3,7 @@ package com.ajeetsingh.design.patterns.creational.singleton;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public final class SingletonJDBCConfigurationTester {
+public final class SingletonJDBCConfigurationTest {
 
     @Test
     public void getConfiguration(){

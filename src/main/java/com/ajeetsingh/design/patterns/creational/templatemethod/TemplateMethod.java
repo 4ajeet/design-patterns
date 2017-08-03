@@ -6,6 +6,6 @@ import java.util.regex.Pattern;
 public final class TemplateMethod {
 
     public static void main(String[] args) {
-
+        System.out.println("Ths is working");
     }
 }

@@ -3,7 +3,6 @@ package com.ajeetsingh.design.patterns.creational.builder;
 import com.ajeetsingh.design.patterns.creational.templatemethod.Ticket;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 /**
  * Builder design pattern

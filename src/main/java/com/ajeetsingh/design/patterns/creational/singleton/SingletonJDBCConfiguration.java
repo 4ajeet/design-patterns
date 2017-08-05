@@ -2,6 +2,7 @@ package com.ajeetsingh.design.patterns.creational.singleton;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URLConnection;
 import java.util.Properties;
 import static com.ajeetsingh.common.Utilities.*;
 

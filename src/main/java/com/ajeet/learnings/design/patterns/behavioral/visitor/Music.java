@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.pattern.behavioral.visitor;
+package com.ajeet.learnings.design.patterns.behavioral.visitor;
 
 import java.io.Serializable;
 

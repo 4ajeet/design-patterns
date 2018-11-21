@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design;
+package com.ajeet.learnings.design.visitorpattern;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design;
+package com.ajeet.learnings.design.visitorpattern;
 
 public final class MusicApp {
     public static void main(String[] args) {

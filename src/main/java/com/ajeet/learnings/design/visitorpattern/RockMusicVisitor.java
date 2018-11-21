@@ -1,15 +1,16 @@
-package com.ajeet.learnings.design;
+package com.ajeet.learnings.design.visitorpattern;
 
 import java.util.List;
 import java.util.Objects;
 
-public final class PopMusicVisitor implements MusicVisitor {
+public final class RockMusicVisitor implements MusicVisitor {
 
     @Override
     public void visit(List<Music> musicList) {
         Objects.requireNonNull(musicList, "MusicList cant be null.");
         musicList.stream()
-                .filter(music -> MusicType.POP.equals(music.getType()))
+                .filter(music -> MusicType.Rock.equals(music.getType()))
                 .forEach(System.out::println);
     }
+
 }

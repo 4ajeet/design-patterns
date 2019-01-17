@@ -1,7 +1,8 @@
-package com.ajeet.learnings.design.patterns.structural.facade;
+package com.ajeet.learnings.designpatterns.structural.facade;
 
 
 import com.vividsolutions.jts.geom.Geometry;
+import com.vividsolutions.jts.geom.util.GeometryTransformer;
 import org.geotools.geometry.jts.JTS;
 import org.geotools.referencing.CRS;
 import org.opengis.referencing.FactoryException;
@@ -9,11 +10,11 @@ import org.opengis.referencing.crs.CoordinateReferenceSystem;
 import org.opengis.referencing.operation.MathTransform;
 import org.opengis.referencing.operation.TransformException;
 
-public final class GeometryTransformer {
-    private final com.vividsolutions.jts.geom.util.GeometryTransformer geometryTransformer;
+public final class GeometryTransformerFacade {
+    private final GeometryTransformer geometryTransformer;
 
-    public GeometryTransformer() {
-        this.geometryTransformer = new com.vividsolutions.jts.geom.util.GeometryTransformer();
+    public GeometryTransformerFacade() {
+        this.geometryTransformer = new GeometryTransformer();
     }
 
     public final Geometry transform(Geometry sourceGeometry, int coordinateReferenceSystem){

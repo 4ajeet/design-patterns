@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.prototype;
+package com.ajeet.learnings.designpatterns.structural.prototype;
 
 import java.awt.*;
 
@@ -32,5 +32,13 @@ public class VectorTile implements Tile {
 
     public void setStyle(IStyle style) {
         this.style = style;
+    }
+
+    @Override
+    public String toString() {
+        return "VectorTile{" +
+                "visibilityConstraints=" + visibilityConstraints +
+                ", style=" + style +
+                '}';
     }
 }

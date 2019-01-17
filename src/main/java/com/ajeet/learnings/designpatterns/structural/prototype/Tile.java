@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.prototype;
+package com.ajeet.learnings.designpatterns.structural.prototype;
 
 public interface Tile extends Rendrable, Cloneable {
     public void setVisibilityConstraints(VisibilityConstraints colour);

@@ -1,6 +1,10 @@
-package com.ajeet.learnings.design.patterns.structural.composite;
+package com.ajeet.learnings.designpatterns.structural.composite;
 
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.Geometry;
+import com.ajeet.learnings.designpatterns.structural.bridge.IRendrableGeometry;
+import org.opengis.geometry.Envelope;
 
-public class Polygon implements Geometry {
+import java.awt.*;
+
+public class Polygon implements IGeometry {
+
 }

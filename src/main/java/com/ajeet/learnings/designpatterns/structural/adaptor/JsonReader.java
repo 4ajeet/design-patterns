@@ -1,4 +1,5 @@
 package com.ajeet.learnings.designpatterns.structural.adaptor;
 
-public class JsonReader {
+public interface JsonReader {
+    public JsonObject read(String jsonText);
 }

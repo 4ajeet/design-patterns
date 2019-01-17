@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.creational.factory;
+package com.ajeet.learnings.designpatterns.creational.factory;
 
 public abstract class AbstractConfigurationFactory implements ConfigurationFactory {
 
@@ -10,5 +10,9 @@ public abstract class AbstractConfigurationFactory implements ConfigurationFacto
             case Xml: return XmlConfigurationFactory.getInstance();
             default: throw new RuntimeException("Unsupported configuration type.");
         }
+    }
+
+    public static ConfigurationFactory getInstance(String type){
+        return getInstance(ConfigurationType.valueOf(type));
     }
 }

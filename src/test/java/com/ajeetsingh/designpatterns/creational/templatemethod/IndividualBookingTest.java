@@ -1,4 +1,4 @@
-package com.ajeetsingh.design.patterns.creational.templatemethod;
+package com.ajeetsingh.designpatterns.creational.templatemethod;
 
 import org.junit.Test;
 

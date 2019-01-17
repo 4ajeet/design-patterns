@@ -1,4 +1,7 @@
 package com.ajeet.learnings.designpatterns.structural.adaptor;
 
-public class XmlReader {
+import org.w3c.dom.Document;
+
+public interface XmlReader {
+    public Document read(String xmlText);
 }

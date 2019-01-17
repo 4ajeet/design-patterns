@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.creational.templatemethod;
+package com.ajeet.learnings.designpatterns.creational.templatemethod;
 
 public final class CorporateBooking extends Booking {
 

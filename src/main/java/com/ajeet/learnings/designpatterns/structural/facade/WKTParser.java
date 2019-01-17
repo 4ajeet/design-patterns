@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.facade;
+package com.ajeet.learnings.designpatterns.structural.facade;
 
 import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.io.ParseException;

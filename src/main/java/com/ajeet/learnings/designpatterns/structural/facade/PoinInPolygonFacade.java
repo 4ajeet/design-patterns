@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.facade;
+package com.ajeet.learnings.designpatterns.structural.facade;
 
 
 import com.vividsolutions.jts.geom.Geometry;
@@ -10,10 +10,10 @@ import com.vividsolutions.jts.geom.Polygon;
  */
 public final class PoinInPolygonFacade {
     private final WKTParser wktParser;
-    private final GeometryTransformer geometryTransformer;
+    private final GeometryTransformerFacade geometryTransformer;
     private final PointInPolygon pointInPolygon;
 
-    public PoinInPolygonFacade(WKTParser wktParser, GeometryTransformer geometryTransformer, PointInPolygon pointInPolygon) {
+    public PoinInPolygonFacade(WKTParser wktParser, GeometryTransformerFacade geometryTransformer, PointInPolygon pointInPolygon) {
         this.wktParser = wktParser;
         this.geometryTransformer = geometryTransformer;
         this.pointInPolygon = pointInPolygon;

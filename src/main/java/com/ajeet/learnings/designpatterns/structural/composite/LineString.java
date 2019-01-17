@@ -1,6 +1,6 @@
-package com.ajeet.learnings.design.patterns.structural.composite;
+package com.ajeet.learnings.designpatterns.structural.composite;
 
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.Geometry;
+import com.ajeet.learnings.designpatterns.structural.bridge.Geometry;
 
-public class LineString implements Geometry {
+public class LineString implements IGeometry {
 }

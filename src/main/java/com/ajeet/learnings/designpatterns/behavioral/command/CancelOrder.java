@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.pattern.behavioral.command;
+package com.ajeet.learnings.designpatterns.behavioral.command;
 
 public class CancelOrder implements Command {
     @Override

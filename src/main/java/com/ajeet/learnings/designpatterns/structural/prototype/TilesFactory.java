@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.prototype;
+package com.ajeet.learnings.designpatterns.structural.prototype;
 
 import com.google.common.collect.ImmutableMap;
 
@@ -14,6 +14,10 @@ public final class TilesFactory {
 
     public static Tile getTile(TileType tileType)  {
         Tile tile = TILE_PROTOTYPES.get(tileType);
-        return null;//tile.clone();
+        try {
+            return (Tile) tile.clone();
+        } catch (CloneNotSupportedException ex) {
+            throw new RuntimeException(ex);
+        }
     }
 }

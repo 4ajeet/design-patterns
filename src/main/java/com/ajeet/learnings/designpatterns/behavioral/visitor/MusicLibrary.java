@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.behavioral.visitor;
+package com.ajeet.learnings.designpatterns.behavioral.visitor;
 
 import java.util.ArrayList;
 import java.util.List;

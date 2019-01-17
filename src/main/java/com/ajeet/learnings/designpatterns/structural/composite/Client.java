@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.composite;
+package com.ajeet.learnings.designpatterns.structural.composite;
 
 public final class Client {
 

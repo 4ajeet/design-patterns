@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.prototype;
+package com.ajeet.learnings.designpatterns.structural.prototype;
 
 import java.awt.*;
 
@@ -24,5 +24,12 @@ public final class RasterTile implements Tile {
     @Override
     public void setVisibilityConstraints(VisibilityConstraints visibilityConstraints) {
         this.visibilityConstraints = visibilityConstraints;
+    }
+
+    @Override
+    public String toString() {
+        return "RasterTile{" +
+                "visibilityConstraints=" + visibilityConstraints +
+                '}';
     }
 }

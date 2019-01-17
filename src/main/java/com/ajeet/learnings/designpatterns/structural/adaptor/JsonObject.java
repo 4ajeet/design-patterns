@@ -1,4 +1,6 @@
 package com.ajeet.learnings.designpatterns.structural.adaptor;
 
-public class Json {
+import java.io.Serializable;
+
+public class JsonObject implements Serializable {
 }

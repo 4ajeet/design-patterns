@@ -1,6 +1,6 @@
-package com.ajeet.learnings.design.patterns.structural.composite;
+package com.ajeet.learnings.designpatterns.structural.composite;
 
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.Geometry;
+import com.ajeet.learnings.designpatterns.structural.bridge.Geometry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,18 +8,18 @@ import java.util.List;
 /**
  * This represents a directory or container of <code>{@link Geometry}</code>
  */
-public final class GeometryCollection implements Geometry {
-    private final List<Geometry> geometryList = new ArrayList<>();
+public final class GeometryCollection implements IGeometry {
+    private final List<IGeometry> geometryList = new ArrayList<>();
 
-    public void addGeometry(Geometry geometry){
+    public void addGeometry(IGeometry geometry){
         geometryList.add(geometry);
     }
 
-    public void addGeometryList(List<Geometry> geometry){
+    public void addGeometryList(List<IGeometry> geometry){
         geometryList.addAll(geometry);
     }
 
-    public List<Geometry> getGeometryList() {
+    public List<IGeometry> getGeometryList() {
         return geometryList;
     }
 }

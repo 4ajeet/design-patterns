@@ -1,6 +1,6 @@
-package com.ajeetsingh.design.patterns.creational.templatemethod;
+package com.ajeetsingh.designpatterns.creational.templatemethod;
 
-import com.ajeet.learnings.design.patterns.creational.templatemethod.Ticket;
+import com.ajeet.learnings.designpatterns.creational.templatemethod.Ticket;
 import org.junit.Test;
 
 import java.time.LocalDateTime;

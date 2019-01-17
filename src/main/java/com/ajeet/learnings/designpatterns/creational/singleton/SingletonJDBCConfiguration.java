@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.creational.singleton;
+package com.ajeet.learnings.designpatterns.creational.singleton;
 
 import java.util.Properties;
 

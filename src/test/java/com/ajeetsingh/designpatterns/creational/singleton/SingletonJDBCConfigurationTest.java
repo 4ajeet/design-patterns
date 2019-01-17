@@ -1,8 +1,8 @@
-package com.ajeetsingh.design.patterns.creational.singleton;
+package com.ajeetsingh.designpatterns.creational.singleton;
 
 import static org.junit.Assert.*;
 
-import com.ajeet.learnings.design.patterns.creational.singleton.SingletonJDBCConfiguration;
+import com.ajeet.learnings.designpatterns.creational.singleton.SingletonJDBCConfiguration;
 import org.junit.Test;
 
 public final class SingletonJDBCConfigurationTest {

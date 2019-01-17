@@ -1,9 +1,9 @@
-package com.ajeetsingh.design.patterns.structural.facade;
+package com.ajeetsingh.designpatterns.structural.facade;
 
-import com.ajeet.learnings.design.patterns.structural.facade.GeometryTransformer;
-import com.ajeet.learnings.design.patterns.structural.facade.PoinInPolygonFacade;
-import com.ajeet.learnings.design.patterns.structural.facade.PointInPolygon;
-import com.ajeet.learnings.design.patterns.structural.facade.WKTParser;
+import com.ajeet.learnings.designpatterns.structural.facade.GeometryTransformerFacade;
+import com.ajeet.learnings.designpatterns.structural.facade.PoinInPolygonFacade;
+import com.ajeet.learnings.designpatterns.structural.facade.PointInPolygon;
+import com.ajeet.learnings.designpatterns.structural.facade.WKTParser;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
@@ -13,7 +13,7 @@ public final class PoinInPolygonFacadeTest {
     @Test
     public void isLocationInsideBoundary(){
         WKTParser wktParser = new WKTParser();
-        GeometryTransformer geometryTransformer = new GeometryTransformer();
+        GeometryTransformerFacade geometryTransformer = new GeometryTransformerFacade();
         PointInPolygon pointInPolygon = new PointInPolygon();
 
         PoinInPolygonFacade facade = new PoinInPolygonFacade(wktParser, geometryTransformer, pointInPolygon);

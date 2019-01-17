@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.structural.facade;
+package com.ajeet.learnings.designpatterns.structural.facade;
 
 import com.vividsolutions.jts.geom.Point;
 import com.vividsolutions.jts.geom.Polygon;

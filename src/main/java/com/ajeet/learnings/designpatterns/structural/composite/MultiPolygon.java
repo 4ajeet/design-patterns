@@ -1,6 +1,6 @@
-package com.ajeet.learnings.design.patterns.structural.composite;
+package com.ajeet.learnings.designpatterns.structural.composite;
 
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.Geometry;
+import com.ajeet.learnings.designpatterns.structural.bridge.Geometry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * This represents a directory or container of <code>{@link Polygon}</code>
  */
-public class MultiPolygon implements Geometry {
+public class MultiPolygon implements IGeometry {
     private final List<Polygon> polygons = new ArrayList<>();
 
     public void addPolygon(Polygon geometry){

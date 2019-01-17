@@ -6,8 +6,6 @@ import java.util.Properties;
 
 public final class Utilities {
 
-    private Utilities(){}
-
     public static final Properties loadPropertiesFromClasspath(String fileName)  {
         try {
             Properties properties = new Properties();

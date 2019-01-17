@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.behavioral.visitor;
+package com.ajeet.learnings.designpatterns.behavioral.visitor;
 
 public final class MusicApp {
     public static void main(String[] args) {

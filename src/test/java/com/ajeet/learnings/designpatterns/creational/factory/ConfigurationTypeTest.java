@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.creational.factory;
+package com.ajeet.learnings.designpatterns.creational.factory;
 
 import org.junit.Test;
 

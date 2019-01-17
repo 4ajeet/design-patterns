@@ -1,18 +1,15 @@
-package com.ajeet.learnings.design.patterns.structural.bridge;
+package com.ajeet.learnings.designpatterns.structural.bridge;
 
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.Polygon;
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.RendrableGeometry;
-import com.ajeet.learnings.design.patterns.structural.bridge.theme.RangeTheme;
-import com.ajeet.learnings.design.patterns.structural.bridge.theme.RasterTheme;
-import com.ajeet.learnings.design.patterns.structural.bridge.geom.LineString;
-
+/**
+ * Decouples an abstraction from its implementation so that the two can vary independently.
+ */
 public final class Client {
 
     public static void main(String[] args) {
-        RendrableGeometry polygon = new Polygon(new RangeTheme());
+        IRendrableGeometry polygon = new Polygon(new RangeTheme());
         polygon.render();
 
-        RendrableGeometry lineString = new LineString(new RasterTheme());
+        IRendrableGeometry lineString = new LineString(new RasterTheme());
         lineString.render();
     }
 }

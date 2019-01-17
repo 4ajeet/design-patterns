@@ -1,4 +1,4 @@
-package com.ajeet.learnings.design.patterns.creational.builder;
+package com.ajeet.learnings.designpatterns.creational.builder;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

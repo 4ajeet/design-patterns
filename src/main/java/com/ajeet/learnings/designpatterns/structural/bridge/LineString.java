@@ -2,7 +2,7 @@ package com.ajeet.learnings.designpatterns.structural.bridge;
 
 import org.opengis.geometry.Envelope;
 
-import java.awt.*;
+import javax.imageio.IIOImage;
 
 public final class LineString implements IRendrableGeometry {
     private final ITheme theme;
@@ -12,9 +12,8 @@ public final class LineString implements IRendrableGeometry {
     }
 
     @Override
-    public Image render() {
-        theme.apply(this);
-        return null;
+    public IIOImage render() {
+       return theme.apply(this);
     }
 
     @Override

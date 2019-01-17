@@ -2,7 +2,7 @@ package com.ajeet.learnings.designpatterns.structural.bridge;
 
 import org.opengis.geometry.Envelope;
 
-import java.awt.*;
+import javax.imageio.IIOImage;
 
 public final class Polygon implements IRendrableGeometry {
     private final ITheme theme;
@@ -12,8 +12,8 @@ public final class Polygon implements IRendrableGeometry {
     }
 
     @Override
-    public Image render() {
-        return null;
+    public IIOImage render() {
+        return theme.apply(this);
     }
 
     @Override

@@ -1,10 +1,13 @@
 package com.ajeet.learnings.designpatterns.structural.bridge;
 
+import javax.imageio.IIOImage;
+
 public final class RangeTheme implements ITheme {
 
     @Override
-    public void apply(IRendrableGeometry geometry) {
+    public IIOImage apply(IRendrableGeometry geometry) {
         System.out.println(this.getClass().getSimpleName() + " applied on " + geometry.getClass().getSimpleName());
+        return null;
     }
 
 }

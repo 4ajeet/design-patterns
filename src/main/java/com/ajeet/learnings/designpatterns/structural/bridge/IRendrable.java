@@ -1,7 +1,7 @@
 package com.ajeet.learnings.designpatterns.structural.bridge;
 
-import java.awt.*;
+import javax.imageio.IIOImage;
 
 public interface IRendrable {
-    public Image render();
+    public IIOImage render();
 }
